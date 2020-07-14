@@ -11,7 +11,7 @@ function addElementToBeginningOfArray(array, n) {
 }
 
 function addElementToEndOfArray(array, n) {
-  var newArray = [array, ...n]
+  var newArray = [...array, n]
   return newArray
 }
 
